@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio da Júlia</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+       <body class="w3-light-blue w3-content" style="max-width:1600px">
+       </body>
+    </head>
+<body>
+<div class = "topo"></div>
+
+<h1>Centro Estadual de Educação Profissional de Ponta Grossa</h1>
+
+<h2>Você já conheceu a melhor aluna do CEEP-PG?</h2>
+
+<h5>Aqui temos uma provinha de um site teste que ela fez.</h5>
+
+<h5>Venha e conheça seus conhecimentos de diversidade variada.</h5>
+
+<button onclick="alert('Conheça uns emojis :>')">Clique aqui.</button>
+
+<button onclick="document.getElementById('myImage').src='josé.moji.png'">emoji bravo!</button>
+
+<img id="myImage" src='emoji.reaçao.jpg' style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='emily.moji.png'">emoji estudioso! </button>
+
+<button onclick="alert('Espero que esteja gostando :>')">Clique aqui.</button>
+
+<br>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:205px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    
+    <h4><b>PORTFÓLIO</b></h4>
+    <p class="w3-text-dark">Este é um trabalho que estou fazendo um portfólio especialmente para a matéria de programação web.</p>
+  </div>
+  <div class="w3-bar-block">
+   
+  </div>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:200px">
+
+  <!-- Header -->
+  <header id="portfolio1">
+    <a href="#"><img src="emoji.reaçao.jpg" style="width:60px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Meu portfólio</b></h1>
+    <button type="button" onclick="document.write(10 + 7)">Minha Idade </button>
+
+    <div class="w3-section w3-bottombar w3-padding-16">
+        
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      
+      <div class="w3-container w3-white">
+        <p><b>Introdução</b></p>
+        <p>Meu Nome é: Júlia Camargo Daniel</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      
+      <div class="w3-container w3-white">
+        <p><b>Curso</b></p>
+        <p>Sou do curso de Informática 3 ano</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+  
+      <div class="w3-container w3-white">
+        <p><b>Colégio</b></p>
+        <p>Estudo no CEEP-PG</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+    
+      <div class="w3-container w3-white">
+        <p><b>Cidade</b></p>
+        <p>Moro em Ponta Grossa</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+    
+      <div class="w3-container w3-white">
+        <p><b>Turno</b></p>
+        <p>Estudo no turno matutino </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+   
+      <div class="w3-container w3-white">
+        <p><b>Comentários</b></p>
+        <p>Realizamos vários trabalhos extra-curriculares</p>
+      </div>
+    </div>
+  
+  
+</script>
+
+</body>
+</html>
+
